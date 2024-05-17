@@ -36,3 +36,7 @@ pmd {
     ruleSets = []                                      // Ignore the default rules. The ones this config
                                                        // uses are set with the ruleSetFiles property.
 }
+
+wrapper {
+    gradleVersion = '8.7'
+}
